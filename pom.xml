@@ -22,6 +22,15 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
+				 <cloudHubDeployemnt>
+				 <username>devendraIDFC</username>
+				 <environment>Sandbox</environment>
+				 <workers>1</workers>
+				 <workerType>Micro</workerType>
+				 <applicationName>helloworld-service</applicationName>
+				 <password>Mindscript18@</password>
+				 <muleVersion>4.2.2</muleVersion>
+				 </cloudHubDeployemnt>
 				</configuration>
 			</plugin>
 		</plugins>
