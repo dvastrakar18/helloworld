@@ -15,6 +15,7 @@
 		<mule.maven.plugin.version>3.3.5</mule.maven.plugin.version>
 	</properties>
 	
+	
 	<build>
 		<plugins>
 			<plugin>
@@ -23,16 +24,17 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-				 <cloudHubDeployemnt>
-				 <username>devendraIDFC</username>
-				 <environment>Sandbox</environment>
-				 <workers>1</workers>
-				 <workerType>Micro</workerType>
-				 <applicationName>helloworld-service</applicationName>
-				 <password>Mindscript18@</password>
-				 <muleVersion>4.2.2</muleVersion>
-				 </cloudHubDeployemnt>
-				</configuration>
+                   <standaloneDeployment>
+                    <muleHome>${mule.home.test}</muleHome>
+                    <muleVersion>4.2.2</muleVersion>
+                    <uri>https://anypoint.mulesoft.com</uri>
+                    <target>C:\AnypointStudio\mule-enterprise-standalone-4.2.2\apps</target>
+                    <targetType>server</targetType>
+                    <username>devendraIDFC</username>
+                    <password>Mindscript18@</password>
+                    <environment>Sandbox</environment>
+                   </standaloneDeployment>
+               </configuration>
 			</plugin>
 		</plugins>
 	</build>
