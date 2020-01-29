@@ -25,7 +25,7 @@
 				<extensions>true</extensions>
 				<configuration>
                    <standaloneDeployment>
-                    <muleHome>${mule.home.test}</muleHome>
+                    <muleHome>C:\AnypointStudio\mule-enterprise-standalone-4.2.2</muleHome>
                     <muleVersion>4.2.2</muleVersion>
                     <uri>https://anypoint.mulesoft.com</uri>
                     <target>C:\AnypointStudio\mule-enterprise-standalone-4.2.2\apps</target>
