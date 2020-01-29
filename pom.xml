@@ -24,16 +24,6 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-                   <standaloneDeployment>
-                    <muleHome>C:\AnypointStudio\mule-enterprise-standalone-4.2.2</muleHome>
-                    <muleVersion>4.2.2</muleVersion>
-                    <uri>https://anypoint.mulesoft.com</uri>
-                    <target>C:\AnypointStudio\mule-enterprise-standalone-4.2.2\apps</target>
-                    <targetType>server</targetType>
-                    <username>devendraIDFC</username>
-                    <password>Mindscript18@</password>
-                    <environment>Sandbox</environment>
-                   </standaloneDeployment>
                </configuration>
 			</plugin>
 		</plugins>
